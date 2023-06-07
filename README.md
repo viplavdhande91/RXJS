@@ -69,10 +69,11 @@ The performance impact only becomes noticeable if we are working on a screen wit
 When in the OnPush change detection strategy, we need to tell Angular when to do change detection.
 
 ## Declarative Pattern for Data Retrieval
-Benefits of a Declarative Approach
 ![Procedural Approach ](https://github.com/viplavdhande91/RXJS/blob/going-reactive/dp1.png?raw=true)
 
 ![Declarative Approach](https://github.com/viplavdhande91/RXJS/blob/going-reactive/dp2.png?raw=true)
+
+#### Benefits of a Declarative Approach
 
 - Leverages the power of RxJS operators
 - Can effectively combine Observable streams

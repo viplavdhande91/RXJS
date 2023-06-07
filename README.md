@@ -35,8 +35,6 @@ We change this to
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he5.png?raw=true)
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he6.png?raw=true)
 
-- We deleted our error handling in the previous clip.
-
 - The two basic strategies for error handling with observables:
 
    - Catch and Replace

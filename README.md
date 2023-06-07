@@ -23,10 +23,6 @@ We change this to
 
 - Deborah demonstrates how much code we can remove using this technique: we don’t need an ngOnDestroy method or to implement OnDestroy at all anymore in the product list component.
 
-#### Benefits of an async pipe
-- No need to subscribe
-- No need to unsubscribe
-- Option to improve performance by modifying the change detection
 ### Handling Errors
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he1.png?raw=true)
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he2.png?raw=true)
@@ -53,6 +49,11 @@ We change this to
 ![error handline strategies4](https://github.com/viplavdhande91/RXJS/blob/going-reactive/ehs4.png?raw=true)
 
 
+#### Benefits of an async pipe
+- No need to subscribe
+- No need to unsubscribe
+- Option to improve performance by modifying the change detection
+- 
 ### Improve Change Detection Strategies
 - Default — every component is checked when any change is detected
 

@@ -36,6 +36,13 @@ We change this to
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he6.png?raw=true)
 
 
+![error handline strategies1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/ehs1.png?raw=true)
+![error handline strategies2](https://github.com/viplavdhande91/RXJS/blob/going-reactive/ehs2.png?raw=true)
+
+![error handline strategies3](https://github.com/viplavdhande91/RXJS/blob/going-reactive/ehs3.png?raw=true)
+![error handline strategies4](https://github.com/viplavdhande91/RXJS/blob/going-reactive/ehs4.png?raw=true)
+
+
 ### Improve Change Detection Strategies
 - Default — every component is checked when any change is detected
 

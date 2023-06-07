@@ -55,9 +55,9 @@ We change this to
 - Option to improve performance by modifying the change detection
 - 
 ### Improve Change Detection Strategies
-- Default — every component is checked when any change is detected
+![change detection](https://github.com/viplavdhande91/RXJS/blob/going-reactive/cd1.png?raw=true)
 
-- OnPush — improves performance by minimizing change detection cycles
+
 
 We can set the change detection strategy in the component decorator like this:
 ```
@@ -70,6 +70,9 @@ When in the OnPush change detection strategy, we need to tell Angular when to do
 
 ### Declarative Pattern for Data Retrieval
 Benefits of a Declarative Approach
+![Procedural Approach ](https://github.com/viplavdhande91/RXJS/blob/going-reactive/dp1.png?raw=true)
+
+![Declarative Approach](https://github.com/viplavdhande91/RXJS/blob/going-reactive/dp2.png?raw=true)
 
 - Leverages the power of RxJS operators
 - Can effectively combine Observable streams

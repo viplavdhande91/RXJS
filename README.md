@@ -1,8 +1,8 @@
-## Going Reactive
+# Going Reactive
 Going reactive means programming with a focus on async data streams. Deborah says this improves performance, handles state, reacts to user actions, and simplifies our code!
 
 
-###  Working with the async pipe
+##  Working with the async pipe
 ![async pipe 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/gr1.png?raw=true)
 
 ![async pipe 2](https://github.com/viplavdhande91/RXJS/blob/going-reactive/gr2.png?raw=true)
@@ -23,7 +23,7 @@ We change this to
 
 - Deborah demonstrates how much code we can remove using this technique: we don’t need an ngOnDestroy method or to implement OnDestroy at all anymore in the product list component.
 
-### Handling Errors
+## Handling Errors
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he1.png?raw=true)
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he2.png?raw=true)
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he3.png?raw=true)
@@ -54,7 +54,7 @@ We change this to
 - No need to unsubscribe
 - Option to improve performance by modifying the change detection
 - 
-### Improve Change Detection Strategies
+## Improve Change Detection Strategies
 ![change detection](https://github.com/viplavdhande91/RXJS/blob/going-reactive/cd1.png?raw=true)
 
 
@@ -68,7 +68,7 @@ The performance impact only becomes noticeable if we are working on a screen wit
 
 When in the OnPush change detection strategy, we need to tell Angular when to do change detection.
 
-### Declarative Pattern for Data Retrieval
+## Declarative Pattern for Data Retrieval
 Benefits of a Declarative Approach
 ![Procedural Approach ](https://github.com/viplavdhande91/RXJS/blob/going-reactive/dp1.png?raw=true)
 

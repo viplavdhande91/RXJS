@@ -1,8 +1,14 @@
 ## Going Reactive
 Going reactive means programming with a focus on async data streams. Deborah says this improves performance, handles state, reacts to user actions, and simplifies our code!
-###  Working with the async pipe
 
-![pipe](https://github.com/viplavdhande91/RXJS/blob/rxjs-operators/rxjsoperators.png?raw=true)
+
+###  Working with the async pipe
+![async pipe 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/gr1.png?raw=true)
+
+![async pipe 2](https://github.com/viplavdhande91/RXJS/blob/going-reactive/gr2.png?raw=true)
+
+
+![async pipe 3](https://github.com/viplavdhande91/RXJS/blob/going-reactive/gr3.png?raw=true)
 
 ```
 <div *ngIf="products">

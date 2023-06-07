@@ -35,7 +35,19 @@ We change this to
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he5.png?raw=true)
 ![handling error 1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/he6.png?raw=true)
 
+- We deleted our error handling in the previous clip.
 
+- The two basic strategies for error handling with observables:
+
+   - Catch and Replace
+   - Catch and Rethrow
+    - Deborah introduces the catchError operator. This is an error handling operator.The  catch and replace strategy effectively replaces the observable data with other defined data when there is an error.
+
+        - The catch and rethrow gives us a chance to log the error, or do some other processing with it, and then rethrows it with the throwError operator.
+
+        - If this bubbles all the way up, the user gets notified that there was an error.The throwError operator is a creation function.
+
+- Deborah also introduces **EMPTY**. This is a constant representing an empty observable. This is followed by a demonstration of these error handling strategies.
 ![error handline strategies1](https://github.com/viplavdhande91/RXJS/blob/going-reactive/ehs1.png?raw=true)
 ![error handline strategies2](https://github.com/viplavdhande91/RXJS/blob/going-reactive/ehs2.png?raw=true)
 

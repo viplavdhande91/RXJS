@@ -27,10 +27,9 @@ export class AppComponent  {
         if (item === 0) {
           throw new Error('zero detected');
         }
-        return item;
-      }),
+        return item;}),
 
-      take(3)
+      take(2)
       
     ).subscribe({
       next: (item) => console.log(`resulting item .. ${item}`),

@@ -9,15 +9,15 @@ import { debounceTime } from 'rxjs/operators';
 })
 export class AppComponent implements OnInit {
 
-  @ViewChild('validate',{ static: true }) validate !: ElementRef ;
+  @ViewChild('templateRefVariable',{ static: true }) validate !: ElementRef ;
 
   constructor(private elm: ElementRef) {
   }
   ngOnInit(): void {
 
     //this.fromOperator();
-    //  this.ofOperator();
-    //   this.intervalMethod();
+    //this.ofOperator();
+    //this.intervalMethod();
     this.fromEventOperator();
   }
   title = 'rxjs-handson';
@@ -42,10 +42,10 @@ export class AppComponent implements OnInit {
 
     //  const nums$ = of([12, 34, 45, 32, 12, 33, 56, 788, 9975, 44, 7878]); //Creation Of Observable using of Method : It will emit single Object
 
-    /// const nums$ = of(12, 34, 45, 32, 12, 33, 56, 788, 9975, 44, 7878); //Creation Of Observable using of Method : It will emit all number one by one
+     const nums$ = of(12, 34, 45, 32, 12, 33, 56, 788, 9975, 44, 7878); //Creation Of Observable using of Method : It will emit all number one by one
 
 
-    const nums$ = of(...[12, 34, 45, 32, 12, 33, 56, 788, 9975, 44, 7878]); //Creation Of Observable using of Method : same as from
+    //const nums$ = of(...[12, 34, 45, 32, 12, 33, 56, 788, 9975, 44, 7878]); //Creation Of Observable using of Method : same as from
 
     const subscription = nums$.subscribe(
       {

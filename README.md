@@ -1,22 +1,21 @@
 ## RXJS Operators ?
 
 ### 1.  pipe()
- - Used to apply methods sequentially using the other operators
- - When Pipeable Operators are called, they do not change the existing Observable instance. Instead, they return a new Observable, whose subscription logic is based on the first Observable.
+ - Used to apply operations sequentially using the other operators
+ - When we **subscribe to Observable** it automatically subscribes to the first input observable in the chain and returns Observable. It further propogates through chain.
 
 ![pipe](https://github.com/viplavdhande91/RXJS/blob/rxjs-operators/rxjsoperators.png?raw=true)
 
 
 ### 2. map()
-- map is a transformational operators
+- map is a transformational operator
   - subscribes to its input Observable
   - Create Output Observable
-- When an item is emitted
+- When each item is emitted
   - Item is transformed as specified by a Provided Function
   - Transformed item is emitted to Output Observable
 
-  ```bash
-
+  ```javascript
     of(10, 20, 30, 40).pipe(
 
       map(item => item * 2),
@@ -29,35 +28,32 @@
   ```
 
 ### 3. tap()
- - tap emits item without affecting it.It emits value as it is.
+ - tap emits item without affecting it. It emits value as it is.
 
- ```
+ ```javascript
     tap(item => console.log(item))
  ```
 
  - for each item emitted in ,the same item is emitted out.
 
  - User for 
-    - Debugging
+    - **Debugging**
 
- - tap is utility operator which subscribes to input observable and creates an Output Observable
+   - tap is utility operator which subscribes to input observable and creates an Output Observable
 
- - Performs a  side effect as provided by Provider Function. 
+   - Performs a  side effect as provided by Provider Function. 
 
  ### 4. Take()
  - emits a specific number of items
 
- ```
+ ```javascript
     take(2)
  ```
 
- - Automatically completes
+ - Automatically callbacks complete() after emittting 2 items
 
  - Used for
     - Taking specifed number of items
     - Limiting unlimited Observables
-
-    ![take1](https://github.com/viplavdhande91/RXJS/blob/main/take1.png?raw=true)
-
 
 ![take2](https://github.com/viplavdhande91/RXJS/blob/main/take%202.png?raw=true)

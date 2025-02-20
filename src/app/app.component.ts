@@ -66,7 +66,7 @@ export class AppComponent implements OnInit {
   }
 
   public fromEventOperator(): void {
-    //Observable Creation Function : fromEvent() : Emits number continuously after 1 sec
+    //Observable Creation Function : fromEvent() : Emits event on click
     const event$ = fromEvent(this.validate?.nativeElement, 'click');
     this.subFromEvent = event$.subscribe({
       next: (e) => console.log('Next item is', e),

@@ -1,6 +1,4 @@
-Here's your improved and well-structured `README.md` file:  
 
-```markdown
 # Understanding RxJS BehaviorSubject, ReplaySubject, and AsyncSubject  
 
 ## 📌 What is a Subject?  
@@ -116,11 +114,9 @@ subject.complete();
 
 ## 🔗 Reference Links  
 [Medium Article](https://luukgruijs.medium.com/understanding-rxjs-behaviorsubject-replaysubject-and-asyncsubject-8cc061f1cfc0)  
-```
 
 ### ✅ Improvements:  
 - **Simplified explanations** for easy understanding.  
 - **Compact code examples** with real-world relevance.  
 - **Comparison table** for quick reference.  
 
-This version is well-structured, easy to read, and ready to use! 🚀
